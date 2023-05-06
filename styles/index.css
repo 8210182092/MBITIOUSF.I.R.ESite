@@ -1,11 +1,12 @@
 .home-main {
-  background: url("../images/man_with_computer.jpg") no-repeat;
+  background: url("../images/fotor-ai-20230506215220_1.jpg") no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 120vh;
+  min-width: 50vh;
 }
 
 .main-content {
-  color: #fff;
+  color:#ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,7 +27,7 @@
   display: grid;
   place-items: center;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   background-image: linear-gradient(
     to right,
     #4162cf 0%,
@@ -115,6 +116,9 @@
     opacity: 1;
   }
 }
+.about{
+  background-color: #f9470c;
+}
 
 .about-sub .sub-sub-about p {
   font-size: 14px;
@@ -140,7 +144,7 @@
 .about-companies{
     max-width: 800px;
     width: 90%;
-    background-color: #f1f1f1;
+    background-color:yellow;
     padding: 1rem .5rem;
     margin:1rem auto;
 }
